@@ -10,6 +10,6 @@ Prompts can be altered for more accurate results.
 
 ##### Run App
 
-* pip install requirements.txt
+* `pip install requirements.txt`
 
 * `streamlit run app.y`
