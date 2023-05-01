@@ -1,1 +1,1 @@
-A GPT-3 API text summarization microservice deployed on Azure.
+A Latex Compiler using Chatgpt-3 API to compile Latex commands into normal text.

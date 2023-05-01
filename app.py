@@ -1,6 +1,5 @@
 import openai
 import streamlit as st
-from flask import Flask, request, jsonify
 from dotenv import load_dotenv
 import os
 
@@ -34,7 +33,7 @@ def latex_to_pdf(latex_expression):
 def main():
     # Set up input and output interfaces
     st.title("ChatGPT-3: Latex to PDF Converter")
-    st.markdown("This application compiles latex commands into pdf using ChatGPT-3 API")
+    st.markdown("This application compiles latex commands into normal pdf text using ChatGPT-3 API")
     input_text= st.text_area('''Enter Latex commands:''')
     if st.button("Compile"):
         output_text = latex_to_pdf(input_text)
